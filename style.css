@@ -35,7 +35,6 @@ body{
 }
 .navbar ul{
     list-style-type: none;
-    overflow: hidden;
 }
 .navbar li{
     margin: 10px;
