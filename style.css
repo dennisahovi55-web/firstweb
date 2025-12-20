@@ -62,4 +62,5 @@ body{
     height: 400px;
     margin: 3px 3px;
     border-radius: 20px;
+    overflow: auto;
 }
