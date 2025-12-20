@@ -53,14 +53,3 @@ body{
     background-color: rgb(58, 63, 58);
     box-shadow: 3px 3px 5px;
 }
-#viddiv{
-    display: flex;
-    justify-content:space-evenly ;
-}
-.vidbox{
-    background-color: rgb(138, 133, 133);
-    width: 400px;
-    height: 400px;
-    margin: 3px 3px;
-    border-radius: 20px;
-}
