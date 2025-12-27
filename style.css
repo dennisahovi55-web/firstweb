@@ -1,66 +1,24 @@
-body{
-    background-color: hsl(288, 17%, 89%)
+h3{
+    color: rgb(255, 0, 0);
 }
-#h1{
-    text-align: center;
-    color: hsl(300, 5%, 20%);
-}
-#search{
-    display: flex;
-    justify-content: center;
-}
-#searchbar{
-    display: block;
-    width: 500px;
-    height: 30px;
+.button{
+    border-radius: 15px;
     border: none;
-    border-radius: 20px;
-    padding:4px 4px;
-}
-#searchbar:hover{
-    background-color: hsl(0, 0%, 95%);
-    box-shadow: 3px 3px 5px;
-}
-#nav{
-    display: flex;
-    justify-content: center;
+    padding: 7px 7px;
+    background-color: rgb(190, 189, 189);
 }
 .navbar a{
     text-decoration: none;
     color: black;
-    background-color: rgb(129, 129, 129);
-    border-radius: 20px;
-    padding: 5px 5px;
-    box-shadow: 2px 2px 3px;
 }
 .navbar ul{
-    list-style-type: none;
-}
-.navbar li{
-    margin: 10px;
-    float: left;
-}
-.navbar a.active{
-    color: rgb(77, 160, 109);
-    background-color: rgb(56, 228, 56);
-}
-.navbar a.active:hover{
-    background-color: green;
-    box-shadow: 3px 3px 5px;
-}
-.navbar a:hover{
-    background-color: rgb(58, 63, 58);
-    box-shadow: 3px 3px 5px;
-}
-#viddiv{
     display: flex;
-    justify-content:space-evenly ;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+
 }
-.vidbox{
-    background-color: rgb(255, 255, 255);
-    width: 400px;
-    height: 400px;
-    margin: 3px 3px;
-    border-radius: 20px;
-    overflow: auto;
+main{
+    display: grid;
+    text-align: center;
 }
