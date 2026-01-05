@@ -1,24 +1,37 @@
-h3{
-    color: rgb(255, 0, 0);
+h4{
+    color: red;
 }
-.button{
-    border-radius: 15px;
-    border: none;
-    padding: 7px 7px;
-    background-color: rgb(190, 189, 189);
+.navbar{
+    display: flex;
 }
 .navbar a{
     text-decoration: none;
     color: black;
-}
-.navbar ul{
-    display: flex;
-    gap: 8px;
-    list-style: none;
-    padding: 0;
-
-}
-main{
-    display: grid;
+    background-color: grey;
+    border-radius: 15px;
+    padding: 5px;
     text-align: center;
+}
+.nav{
+    margin: 5px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(300px , 1fr));
+    grid-auto-rows: 300px;
+    gap: 2em;
+    justify-content: center;
+}
+.box{
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.navbar a.active{
+    background-color: rgb(46, 45, 45);
+}
+video{
+    border-radius: 10px;
 }
